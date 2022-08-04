@@ -11,3 +11,7 @@
 **Race track**: DBro Raceway
 
 **Total Training Time**: 10 Hours
+
+### **Task**
+
+Create an optimum ```reward_function(params)``` and compete in the leaderboard
