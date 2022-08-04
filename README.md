@@ -10,7 +10,7 @@
 
 **Race track**: DBro Raceway
 
-**Total Training Time**: 10 Hours
+**Total Training Time**: 1 Hour
 
 **Algorithm**: Proximal Policy Optimization(PPO)
 
@@ -20,4 +20,4 @@ Create an optimum ```reward_function(params)``` and compete in the leaderboard
 
 ### **Latest Improvements**
 
-Follow the centerline, Stay within borders, Prevent zig-zag
+Follow the centerline, Stay within borders, Prevent zig-zag, Added speed threshold to improve rank
