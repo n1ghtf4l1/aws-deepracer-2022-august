@@ -20,4 +20,4 @@ Create an optimum ```reward_function(params)``` and compete in the leaderboard
 
 ### **Latest Improvements**
 
-Prevent zig-zag; follow imaginary Raceline; max speed at straight roads & minimum speed on turns; heavy penalization for offtrack and excessive rotation.
+Follow the centerline, Stay within borders, Prevent zig-zag
