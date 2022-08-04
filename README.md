@@ -12,6 +12,8 @@
 
 **Total Training Time**: 10 Hours
 
+**Algorithm**: Proximal Policy Optimization(PPO)
+
 ### **Task**
 
 Create an optimum ```reward_function(params)``` and compete in the leaderboard
