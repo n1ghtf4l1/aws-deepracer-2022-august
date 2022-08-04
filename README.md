@@ -1,4 +1,4 @@
-### aws-deepracer-2022-august
+#### aws-deepracer-2022-august
 
 # **AWS DeepRacer Student League August 2022**
 
