@@ -10,7 +10,7 @@
 
 **Race track**: DBro Raceway
 
-**Total Training Time**: 1 Hour
+**Total Training Time**: 7 Hour
 
 **Algorithm**: Proximal Policy Optimization(PPO)
 
