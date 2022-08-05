@@ -21,3 +21,7 @@ Create an optimum ```reward_function(params)``` and compete in the leaderboard
 ### **Latest Improvements**
 
 Follow the centerline, Stay within borders, Prevent zig-zag, Added speed threshold to improve rank
+
+### **Result**
+
+Total lap time: 02:42.545
