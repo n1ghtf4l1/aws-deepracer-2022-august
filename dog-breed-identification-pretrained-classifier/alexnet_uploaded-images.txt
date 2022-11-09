@@ -1,0 +1,77 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:             Object_Name_01.jpg  label:                object name
+ 2 key:             Animal_Name_01.jpg  label:                animal name
+ 3 key:                     Dog_02.jpg  label:                        dog
+ 4 key:                     Dog_01.jpg  label:                        dog
+{'Object_Name_01.jpg': ['object name', 'magnetic compass', 0], 'Animal_Name_01.jpg': ['animal name', 'siamese cat, siamese, cat', 0], 'Dog_02.jpg': ['dog', 'red fox, vulpes vulpes', 0], 'Dog_01.jpg': ['dog', 'grey fox, gray fox, urocyon cinereoargenteus', 0]}
+
+     MATCH:
+
+ NOT A MATCH:
+
+            Object_Name_01.jpg: 
+Real:                object name   Classifier:               magnetic compass
+
+            Animal_Name_01.jpg: 
+Real:                animal name   Classifier:      siamese cat, siamese, cat
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:         red fox, vulpes vulpes
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: grey fox, gray fox, urocyon cinereoargenteus
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+            Object_Name_01.jpg: 
+Real:                object name   Classifier:               magnetic compass  
+PetLabelDog: 0  ClassLabelDog: 0
+
+            Animal_Name_01.jpg: 
+Real:                animal name   Classifier:      siamese cat, siamese, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:         red fox, vulpes vulpes  
+PetLabelDog: 1  ClassLabelDog: 0
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: grey fox, gray fox, urocyon cinereoargenteus  
+PetLabelDog: 1  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+ 
+pct_match: 0.0
+pct_correct_dogs: 0.0
+pct_correct_breed: 0.0
+pct_correct_notdogs: 100.0
+
+INCORRECT Dog/NOT Dog Assignments:
+Real:                        dog Classifier:         red fox, vulpes vulpes
+Real:                        dog Classifier: grey fox, gray fox, urocyon cinereoargenteus
+
+** Total Elapsed Runtime: 0:0:0
