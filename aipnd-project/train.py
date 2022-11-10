@@ -24,7 +24,7 @@ def main():
     global args
     parser = argparse.ArgumentParser(description='training options')
     parser.add_argument('data_directory', help='data directory')
-    parser.add_argument('--save_dir', type=str, dest='save_dir', default='', help='saved data directory')
+    parser.add_argument('--save_dir', type=str, dest='save_dir', help='saved data directory')
     parser.add_argument('--arch', type=str, help='choose architecture')
     parser.add_argument('--learning_rate', type=float, dest='learning_rate', default=0.001, help='choose learning rate')
     parser.add_argument('--hidden_units', action='store', type=int, dest='hidden_units', default=120, help='choose hidden units')
