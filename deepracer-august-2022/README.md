@@ -26,4 +26,4 @@ Follow the centerline, Stay within borders, Prevent zig-zag, Added speed thresho
 
 Total lap time: 02:42.545
 
-I was [accepted](https://github.com/n1ghtf4l1/aws-deepracer-2022-august/blob/main/AWS-Udacity-course-Sponsorship.png) to join - AI Programming with Python Nanodegree Program sponsored by AWS.
+I was [accepted](https://github.com/n1ghtf4l1/aws-deepracer-2022-august/blob/main/certificates/AWSAIML_Sch_badge.png) to join - AI Programming with Python Nanodegree Program sponsored by AWS.
