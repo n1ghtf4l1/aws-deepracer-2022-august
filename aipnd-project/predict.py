@@ -41,7 +41,7 @@ def classify_image(image_path, topk=5):
         image = image.float()
 
         model_info = torch.load(args.model_checkpoint)
-        model = model_info['transfer_model']
+        model = model_info['model']
         model.classifier = model_info['classifier']
         model.load_state_dict(model_info['state_dict'])
         
